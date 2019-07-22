@@ -1,4 +1,19 @@
-body {
- background-color: #333300;
- color: #FFFFFF;
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: #ffffff;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
 }
