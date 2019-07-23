@@ -17,3 +17,28 @@
 .tab button:hover {
   background-color: #ddd;
 }
+
+.small-image img{
+    height: 50px;
+    width: 50px;
+}
+
+.big-image img{
+    height: 100px;
+    width: 100px;
+}
+
+.row{
+    text-align: center;
+}
+
+.hover{
+    transition: 0.3s;
+}
+
+.hover:hover{
+    background-color: aqua;
+}
+
+
+
