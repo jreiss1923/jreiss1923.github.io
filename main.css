@@ -15,7 +15,7 @@
 }
 
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #efefef;
 }
 
 .small-image img{
@@ -38,8 +38,9 @@
 }
 
 .hover:hover{
-    background-color: aqua;
+    background-color: #efefef;
 }
+
 
 [class*="col-"] span.small-text{
     font-size: 150%;
@@ -48,7 +49,8 @@
 
 [class*="col-"] span.big-text{
     font-size: 150%;
-    font-family: 'Judson', serif;
+    font-family: 'Roboto Slab', serif;
+
 }
 
 hr {
@@ -56,7 +58,7 @@ hr {
   clear:both;
   display:block;
   width: 96%;               
-  background-color:#000000;
+  background-color:#6BB9FF;
   height: 1px;
 }
 

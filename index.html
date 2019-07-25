@@ -6,9 +6,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Slab&display=swap" rel="stylesheet">
         <link rel = "stylesheet"
             type = "text/css"
             href = "main.css" />
+        <script src="myscripts.js"></script>
     </head>
     <body>
         <div class="tab">
@@ -53,12 +55,12 @@
                         <img src="bloomberg%20logo.png">
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onmouseover="changeText()" onmouseout="changeTextBack()">
                     <h3>
-                        <span class="small-text">Software Engineering Intern</span>                
+                        <span id="intern-text" class="small-text">Software Engineering Intern</span>
                     </h3>
                     <p>
-                        <span class="small-text">October 2018 - August 2019</span>
+                        <span id="date-text-1" class="small-text">October 2018 - August 2019</span>
                     </p>
                 </div>
                 <div class="col-md-2"></div>
