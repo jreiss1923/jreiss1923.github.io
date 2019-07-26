@@ -37,8 +37,9 @@
     transition: 0.3s;
 }
 
-.hover:hover{
-    background-color: #efefef;
+.hover:hover img{
+    background-color: inherit;
+    border: 1px solid #cae6ff;
 }
 
 
@@ -50,7 +51,6 @@
 [class*="col-"] span.big-text{
     font-size: 150%;
     font-family: 'Roboto Slab', serif;
-
 }
 
 hr {
@@ -59,8 +59,32 @@ hr {
   display:block;
   width: 96%;               
   background-color:#6BB9FF;
-  height: 1px;
+  height: 3px;
 }
+
+.left-line {
+    border-left: 2px solid #b5dcff;
+    height: 1050px;
+    left: 25%;
+    margin-left: 3px;
+    position: absolute;
+    top: 50px;
+}
+
+.right-line {
+    border-right: 2px solid #b5dcff;
+    height: 1050px;
+    right: 25%;
+    margin-right: 3px;
+    position: absolute;
+    top: 50px;
+}
+
+body{
+    background-image: linear-gradient(#f0fbff, #fff0fb);
+}
+
+
 
 
 

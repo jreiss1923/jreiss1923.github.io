@@ -4,6 +4,7 @@
         <title>Joshua Reiss</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Slab&display=swap" rel="stylesheet">
@@ -13,6 +14,7 @@
         <script src="myscripts.js"></script>
     </head>
     <body>
+        <div class="left-line"></div>
         <div class="tab">
             <button onclick = "window.location.href = 'index.html'">Projects</button>
             <button onclick = "window.location.href = 'about.html'">About Me</button>
@@ -50,12 +52,12 @@
             </div>
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-4">
+                <div class="col-md-4" onmouseover="changeTextIntern()" onmouseout="changeTextBackIntern()">
                     <div class="big-image hover">
                         <img src="bloomberg%20logo.png">
                     </div>
                 </div>
-                <div class="col-md-4" onmouseover="changeText()" onmouseout="changeTextBack()">
+                <div class="col-md-4" onmouseover="changeTextIntern()" onmouseout="changeTextBackIntern()">
                     <h3>
                         <span id="intern-text" class="small-text">Software Engineering Intern</span>
                     </h3>
@@ -86,15 +88,15 @@
             </div>
             <div class="row">
                 <div class="col-md-2"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" onmouseover="changeTextBoggle()" onmouseout="changeTextBackBoggle()">
                         <h3>
-                            <span class="small-text">Boggle Solver</span>
+                            <span id="boggle-text" class="small-text">Boggle Solver</span>
                         </h3>
                         <p>
-                            <span class="small-text">July 2019</span>
+                            <span id="date-text-2" class="small-text">July 2019</span>
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" onmouseover="changeTextBoggle()" onmouseout="changeTextBackBoggle()">
                         <div class="hover">
                             <a href="https://github.com/jreiss1923/boggle_master_solver">
                                 <div class="big-image">
@@ -107,7 +109,7 @@
             </div>
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-4">
+                <div class="col-md-4" onmouseover="changeTextTyper()" onmouseout="changeTextBackTyper()">
                     <div class="hover">
                         <a href="https://github.com/jreiss1923/TyperBot">
                             <div class="big-image">
@@ -116,12 +118,12 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onmouseover="changeTextTyper()" onmouseout="changeTextBackTyper()">
                     <h3>
-                        <span class="small-text">Typing Speed Test</span>
+                        <span id="typer-text" class="small-text">Typing Speed Test</span>
                     </h3>
                     <p>
-                        <span class="small-text">December 2018</span>
+                        <span id="date-text-3" class="small-text">December 2018</span>
                     </p>
                 </div>
                 <div class="col-md-2"></div>
@@ -162,5 +164,6 @@
                 <div class="col-md-2"></div>
             </div>
         </div>
+        <div class="right-line"></div>
     </body>
 </html>
