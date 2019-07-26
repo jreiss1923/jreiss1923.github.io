@@ -16,7 +16,14 @@
     <body>
         <div class="left-line"></div>
         <div class="tab">
-            <button onclick = "window.location.href = 'index.html'">Projects</button>
+            <div class="dropdown">
+                <button onclick = "window.location.href = 'index.html'" class="dropdown-button">Projects</button>
+                <div class="projects-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
             <button onclick = "window.location.href = 'about.html'">About Me</button>
         </div>
         <div class="container">
@@ -137,7 +144,7 @@
             </div>
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-4">
+                <div class="col-md-4" onmouseover="imSoLonelyHover()" onmouseout="imSoLonelyOffHover()">
                     <h1>
                         <span class="small-text">Links</span>
                     </h1>
@@ -145,7 +152,7 @@
                         <span class="small-text">Contact me here!</span>
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onmouseover="imSoLonelyHover()" onmouseout="imSoLonelyOffHover()">
                     <div class="hover">
                         <a href="https://github.com/jreiss1923/">
                             <div class="small-image">
@@ -160,8 +167,27 @@
                             </div>
                         </a>
                     </div>
+                    <div class="hover">
+                        <a href="https://twitter.com/jreiss1923/">
+                            <div id="doppio" class="small-image">
+                                <img src="twitter%20logo.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hover">
+                        <a href="mailto:joshua.reiss2@gmail.com">
+                            <div class="small-image">
+                                <img src="gmail%20logo.png">
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                </div>
             </div>
         </div>
         <div class="right-line"></div>

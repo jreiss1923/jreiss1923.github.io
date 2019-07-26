@@ -30,6 +30,13 @@ function changeTextBackBoggle(){
 
 function getBorderColor(){
     var color = document.body.style.backgroundColor;
-    document.body.style.backgroundColor = "white";
-    
+    document.body.style.backgroundColor = "white";   
+}
+
+function imSoLonelyHover(){
+    document.getElementById("doppio").innerHTML='<img src="doppio.png">'
+}
+
+function imSoLonelyOffHover(){
+    document.getElementById("doppio").innerHTML='<div id="doppio" class="small-image" onmouseover="imSoLonelyHover()" onmouseoff="imSoLonelyOffHover()"><img src="twitter%20logo.png"></div>'
 }
