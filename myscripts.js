@@ -27,16 +27,3 @@ function changeTextBackBoggle(){
     document.getElementById("boggle-text").innerHTML='<h3><span id="boggle-text" class="small-text">Boggle Solver</span></h3>'
     document.getElementById("date-text-2").innerHTML='<p><span id="date-text-2">July 2019</span></p>'
 }
-
-function getBorderColor(){
-    var color = document.body.style.backgroundColor;
-    document.body.style.backgroundColor = "white";   
-}
-
-function imSoLonelyHover(){
-    document.getElementById("doppio").innerHTML='<img src="doppio.png">'
-}
-
-function imSoLonelyOffHover(){
-    document.getElementById("doppio").innerHTML='<div id="doppio" class="small-image" onmouseover="imSoLonelyHover()" onmouseoff="imSoLonelyOffHover()"><img src="twitter%20logo.png"></div>'
-}

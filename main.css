@@ -5,6 +5,11 @@
   font-size: 16px;
   border: none;
   cursor: pointer;
+  transition: 2s;
+}
+
+.tab button:hover{
+    background-color: #ffebf3;
 }
 
 .dropdown {
@@ -25,16 +30,19 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  transition: 1s;
 }
 
-.projects-content a:hover {background-color: #f1f1f1}
+.projects-content a:hover {
+    background-color: #ffdbea;
+}
 
 .dropdown:hover .projects-content {
   display: block;
 }
 
 .dropdown:hover .dropdown-button {
-  background-color: blue;
+  background-color: #ffebf3;
 }
 
 .small-image img{
@@ -52,13 +60,12 @@
     vertical-align: middle;
 }
 
-.hover{
-    transition: 0.3s;
+.hover img{
+    transition: 2s;
 }
 
 .hover:hover img{
-    background-color: inherit;
-    border: 1px solid #cae6ff;
+    background-color: #ffebf3;
 }
 
 
@@ -77,12 +84,12 @@ hr {
   clear:both;
   display:block;
   width: 96%;               
-  background-color:#6BB9FF;
+  background-color: #c2e2ff;
   height: 3px;
 }
 
 .left-line {
-    border-left: 2px solid #b5dcff;
+    border-left: 2px solid #d1e9ff;
     height: 1050px;
     left: 25%;
     margin-left: 3px;
@@ -91,7 +98,7 @@ hr {
 }
 
 .right-line {
-    border-right: 2px solid #b5dcff;
+    border-right: 2px solid #d1e9ff;
     height: 1050px;
     right: 25%;
     margin-right: 3px;
@@ -100,10 +107,12 @@ hr {
 }
 
 body{
-    background-image: linear-gradient(#f0fbff, #fff0fb);
+    background-color: #fff5f9;
 }
 
-
+.left img{
+    float: left;
+}
 
 
 
