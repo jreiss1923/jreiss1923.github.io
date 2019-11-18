@@ -91,7 +91,7 @@ hr {
 .left-line {
     border-left: 2px solid #d1e9ff;
     height: 1050px;
-    left: 25%;
+    left: 15%;
     margin-left: 3px;
     position: absolute;
     top: 50px;
@@ -100,7 +100,7 @@ hr {
 .right-line {
     border-right: 2px solid #d1e9ff;
     height: 1050px;
-    right: 25%;
+    right: 35%;
     margin-right: 3px;
     position: absolute;
     top: 50px;
