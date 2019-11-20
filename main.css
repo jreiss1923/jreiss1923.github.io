@@ -79,6 +79,10 @@
     font-family: 'Roboto Slab', serif;
 }
 
+/*[class*="col-"] {
+    background-color: mediumpurple;
+}*/
+
 hr {
   border: 0;
   clear:both;
@@ -90,20 +94,20 @@ hr {
 
 .left-line {
     border-left: 2px solid #d1e9ff;
-    height: 1050px;
-    left: 15%;
+    height: 1150px;
+    left: 9%;
     margin-left: 3px;
     position: absolute;
-    top: 50px;
+    top: 75px;
 }
 
 .right-line {
     border-right: 2px solid #d1e9ff;
-    height: 1050px;
-    right: 35%;
+    height: 1150px;
+    right: 42%;
     margin-right: 3px;
     position: absolute;
-    top: 50px;
+    top: 75px;
 }
 
 body{
