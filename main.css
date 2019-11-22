@@ -126,6 +126,19 @@ body{
     width: 23%;
 }
 
+.about-me{
+    position: absolute;
+    top: 500px;
+    left: 1350px;
+    width: 25%;
+    text-align: center;
+}
+
+.about-me span.small-text{
+    font-size: 150%;
+    font-family: 'Quicksand', sans-serif;
+} 
+
 
 
 
