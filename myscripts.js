@@ -43,3 +43,27 @@ function changeTextBackTyper(){
     document.getElementById("code-text-3").innerHTML='<p><span id="code-text-3">Javascript</span></p>';
     document.getElementById("date-text-3").innerHTML='<p><span id="date-text-3">December 2018</span></p>';
 }
+
+function changeTextDB(){
+    document.getElementById("db-text").innerHTML='To learn more about what I did, click the link to the right';
+    document.getElementById("code-text-5").innerHTML='<p></p>'
+    document.getElementById("date-text-5").innerHTML='<p></p>'
+}
+
+function changeTextBackDB(){
+    document.getElementById("db-text").innerHTML='<h3><span class="small-text" id="db-text">Databases Final Project</span></h3>';
+    document.getElementById("code-text-5").innerHTML='<p><span id="code-text-5">HTML, CSS, JQuery, Python</span></p>'
+    document.getElementById("date-text-5").innerHTML='<p><span id="date-text-5">December 2019</span></p>'
+}
+
+function changeTextCardboard(){
+    document.getElementById("cardboard-text").innerHTML='To learn more about what I did, click the link to the left';
+    document.getElementById("code-text-6").innerHTML='<p></p>'
+    document.getElementById("date-text-6").innerHTML='<p></p>'
+}
+
+function changeTextBackCardboard(){
+    document.getElementById("cardboard-text").innerHTML='<h3><span class="small-text" id="cardboard-text">Cardboard Cache</span></h3>';
+    document.getElementById("code-text-6").innerHTML='<p><span id="code-text-6">Python</span></p>'
+    document.getElementById("date-text-6").innerHTML='<p><span id="date-text-6">December 2019 - ???</span></p>'
+}
