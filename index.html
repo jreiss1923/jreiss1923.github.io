@@ -1,289 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Joshua Reiss</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lora|Roboto+Slab&display=swap" rel="stylesheet">
-        <link rel = "stylesheet"
-            type = "text/css"
-            href = "main.css" />
-        <script src="myscripts.js"></script>
-        <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
-    </head>
-    <body>
-        <div class="left-line"></div>
-        <div class="tab">
-            <div class="dropdown">
-                <button onclick = "window.location.href = 'index.html'" class="dropdown-button">Projects</button>
-                <div class="projects-content">
-                    <a href="personal-website.html">Personal Website</a>
-                    <a href="boggle-solver.html">Boggle Solver</a>
-                    <a href="typing-test.html">Typing Speed Test</a>
-                    <a href="cardboard-cache.html">Cardboard Cache</a>
-                    <a href="final-project.html">Databases Final Project</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button onclick = "window.location.href = 'index.html'" class="dropdown-button">Work Experiences</button>
-                <div class="projects-content">
-                    <a href="about.html">Bloomberg</a>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h1>
-                        <span class="big-text">Joshua Reiss</span>
-                    </h1>
-                </div>
-                <div class="col-lg-2">
-                    <h4>
-                        <span class="big-text">About Me</span>
-                    </h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-4">
-                    <hr>
-                </div>
-                <div class="col-lg-5"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h3>
-                        <span class="big-text">Work Experience</span>
-                    </h3>
-                    <div class="center">
-                        <p>
-                            <span class="big-text">Oh, the places I've been! (to work)</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-3" onmouseover="changeTextIntern()" onmouseout="changeTextBackIntern()">
-                    <a href="about.html">
-                        <div class="big-image hover">
-                            <img src="bloomberg%20logo.png">
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3" onmouseover="changeTextIntern()" onmouseout="changeTextBackIntern()">
-                    <h3>
-                        <span id="intern-text" class="small-text">Software Engineering Intern</span>
-                    </h3>
-                    <p>
-                        <span id="date-text-1" class="small-text">October 2018 - August 2019</span>
-                    </p>
-                </div>
-                <div class="col-lg-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-4">
-                    <hr>
-                </div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-2">
-                    <hr>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-8">
-                    <h3>
-                        <span class="big-text">Personal Projects</span>
-                    </h3>
-                    <p>
-                        <span class="big-text">Stuff I've done myself that's cool</span>
-                    </p>
-                </div>
-                <div class="col-lg-2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-3" onmouseover="changeTextCardboard()" onmouseout="changeTextBackCardboard()">
-                    <div class="hover">
-                        <a href="https://github.com/jreiss1923/jreiss1923.github.io">
-                            <div class="big-image">
-                                <img src="github%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3" onmouseover="changeTextCardboard()" onmouseout="changeTextBackCardboard()">
-                    <h3>
-                        <span id="cardboard-text" class="small-text">Cardboard Cache</span>
-                    </h3>
-                    <p>
-                        <span id="code-text-6" class="small-text">Python</span>
-                    </p>
-                    <p>
-                        <span id="date-text-6" class="small-text">December 2019 - ???</span>
-                    </p>
-                </div>
-                <div class="col-lg-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-3" onmouseover="changeTextDB()" onmouseout="changeTextBackDB()">
-                    <h3>
-                        <span id="db-text" class="small-text">Databases Final Project</span>
-                    </h3>
-                    <p>
-                        <span id="code-text-5" class="small-text">HTML, CSS, JQuery, Python</span>
-                    </p>
-                    <p>
-                        <span id="date-text-5" class="small-text">December 2019</span>
-                    </p>
-                </div>
-                <div class="col-lg-3" onmouseover="changeTextDB()" onmouseout="changeTextBackDB()">
-                    <div class="hover">
-                        <a href="https://github.com/jreiss1923/boggle_master_solver">
-                            <div class="big-image">
-                                <img src="github%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-3" onmouseover="changeTextWebsite()" onmouseout="changeTextBackWebsite()">
-                    <div class="hover">
-                        <a href="https://github.com/jreiss1923/jreiss1923.github.io">
-                            <div class="big-image">
-                                <img src="github%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3" onmouseover="changeTextWebsite()" onmouseout="changeTextBackWebsite()">
-                    <h3>
-                        <span id="website-text" class="small-text">Personal Website</span>
-                    </h3>
-                    <p>
-                        <span id="code-text-4" class="small-text">HTML, CSS, Javascript</span>
-                    </p>
-                    <p>
-                        <span id="date-text-4" class="small-text">August 2019</span>
-                    </p>
-                </div>
-                <div class="col-lg-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-3" onmouseover="changeTextBoggle()" onmouseout="changeTextBackBoggle()">
-                    <h3>
-                        <span id="boggle-text" class="small-text">Boggle Solver</span>
-                    </h3>
-                    <p>
-                        <span id="code-text-2" class="small-text">Java</span>
-                    </p>
-                    <p>
-                        <span id="date-text-2" class="small-text">July 2019</span>
-                    </p>
-                </div>
-                <div class="col-lg-3" onmouseover="changeTextBoggle()" onmouseout="changeTextBackBoggle()">
-                    <div class="hover">
-                        <a href="https://github.com/jreiss1923/boggle_master_solver">
-                            <div class="big-image">
-                                <img src="github%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-3" onmouseover="changeTextTyper()" onmouseout="changeTextBackTyper()">
-                    <div class="hover">
-                        <a href="https://github.com/jreiss1923/TyperBot">
-                            <div class="big-image">
-                                <img src="github%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3" onmouseover="changeTextTyper()" onmouseout="changeTextBackTyper()">
-                    <h3>
-                        <span id="typer-text" class="small-text">Typing Speed Test</span>
-                    </h3>
-                    <p>
-                        <span id="code-text-3" class="small-text">Javascript</span>
-                    </p>
-                    <p>
-                        <span id="date-text-3" class="small-text">December 2018</span>
-                    </p>
-                </div>
-                <div class="col-lg-4"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-4">
-                    <hr>
-                </div>
-                <div class="col-lg-5"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-3">
-                    <h1>
-                        <span class="small-text">Links</span>
-                    </h1>
-                    <p>
-                        <span class="small-text">Contact me here!</span>
-                    </p>
-                </div>
-                <div class="col-lg-3">
-                    <div class="hover left">
-                        <a href="https://github.com/jreiss1923/">
-                            <div class="small-image">
-                                <img src="github%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="hover right">
-                        <a href="https://www.linkedin.com/in/joshua-reiss-2131b3170">
-                            <div class="small-image">
-                                <img src="linkedin%20logo.jpg">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="hover left">
-                        <a href="https://www.twitter.com/jreiss1923/">
-                            <div class="small-image">
-                                <img src="twitter%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="hover right">
-                        <a href="mailto:joshua.reiss2@gmail.com">
-                            <div class="small-image">
-                                <img src="gmail%20logo.png">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4"></div>
-            </div>
-        </div>
-        <div class="right-line"></div>
-        <img class="me" src="jreiss_pic.jpg">
-        <div class="about-me">
-            <span class="small-text">I'm a second-year student at Northeastern University studying Computer Science and Political Science. Most of my projects are small-scale Java and Python programs that solve fun little problems. I have a variety of hobbies I love outside of programming, including Magic: The Gathering, pen spinning (flipping a pen around so it looks cool), reading, and weight lifting (much as I don't look like it). </span>
-        </div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joshua Reiss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <h1 class="quicksand">Joshua Reiss</h1>
+  <h3 class="quicksand">Software Engineer</h3>
+  <div id="buttons">
+    <input id="jobsbutton" class="unclicked" type="button" value="Work History" class="quicksand" onclick="showJobs()"></input>
+    <input id="interestsbutton" class="unclicked" type="button" value="Interests" class="quicksand" onclick="showInterests()"></input>
+    <input id="linksbutton" class="unclicked" type="button" value="Links" class="quicksand" onclick="showLinks()"></input>
+  </div>
+  <div id="jobs" class="displayFalse">
+    <a href="https://www.johnhancock.com/index.html"><img src="jh.png"></a>
+    <a href="https://www.gmo.com"><img src="gmo.jpg"></a>
+    <a href="https://www.bloomberg.com/"><img src="bloomberg.jpg"></a>
+  </div>
+  <div id="interests" class="displayFalse">
+    <a href="https://ebird.org/profile/NDY3NjA3OQ/world"><img src="ebird.jpg"></a>
+    <a href="https://www.pgstats.com/ultimate/player/jreiss1923?id=S2124114"><img src="pgstats.png"></a>
+    <a href="https://www.goodreads.com/user/show/146025753-joshua-reiss"><img src="goodreads.png"></a>
+  </div>
+  <div id="links" class="displayFalse">
+    <a href="https://github.com/jreiss1923"><img src="github.png"></a>
+    <a href="https://www.linkedin.com/in/joshua-reiss-2131b3170/"><img src="linkedin.png"></a>
+    <a href="resume.pdf" download><img src="resume.png"></a>
+  </div>
+</body>
 </html>

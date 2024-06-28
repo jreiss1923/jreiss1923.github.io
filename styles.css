@@ -1,0 +1,81 @@
+.displayTrue {
+    display: block
+}
+
+.displayFalse {
+    display: none
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+    background-color: #01002e;
+    color: white;
+}
+
+#jobs {
+    text-align: center;
+}
+
+#interests {
+    text-align: center;
+}
+
+#links {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 0.5em;
+    font-size: 14em;
+    text-align: center;
+    line-height: 0.5em;
+}
+
+h3 {
+    font-size: 6em;
+    text-align: center;
+    line-height: 0.1em;
+}
+
+input {
+    padding: 0.5em;
+    color: #01002e;
+    background-color: white;
+    border: none;
+    font-size: 1.5em;
+    width: 10em;
+    margin: 0.5em;
+    font-weight: 500 !important;
+    transition: filter 0.5s;
+}
+
+input:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+#buttons {
+    overflow: hidden;
+    margin-left: 29%;
+}
+
+img {
+    width: 7em;
+    padding: 3em;
+    transition: filter 1s;
+}
+
+img:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.clicked {
+    filter: brightness(0.8);
+}
