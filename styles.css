@@ -104,6 +104,11 @@ img.aboutimg {
     float: left;
 }
 
+img.aboutimg:hover {
+    filter: brightness(1);
+    cursor: auto;
+}
+
 img:hover {
     filter: brightness(0.8);
     cursor: pointer;
