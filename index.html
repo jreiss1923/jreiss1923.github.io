@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="scripts.js"></script>
@@ -15,9 +16,14 @@
   <h1 class="quicksand">Joshua Reiss</h1>
   <h3 class="quicksand">Software Engineer</h3>
   <div id="buttons">
+    <input id="aboutbutton" class="unclicked" type="button" value="About" class="quicksand" onclick="showAbout()"></input>
     <input id="jobsbutton" class="unclicked" type="button" value="Jobs" class="quicksand" onclick="showJobs()"></input>
     <input id="interestsbutton" class="unclicked" type="button" value="Interests" class="quicksand" onclick="showInterests()"></input>
     <input id="linksbutton" class="unclicked" type="button" value="Links" class="quicksand" onclick="showLinks()"></input>
+  </div>
+  <div id="about" class="displayFalse">
+    <img class="aboutimg" src="propic.jpg">
+    <p class="lato">Hello! I'm Joshua Reiss, a Full-stack Software Engineer for John Hancock. My favorite language to use is Python. In my free time I enjoy basketball, baking, playing Magic: The Gathering, and the activities in the Interests tab.</p>
   </div>
   <div id="jobs" class="displayFalse">
     <a href="https://www.johnhancock.com/index.html"><img src="jh.png"></a>

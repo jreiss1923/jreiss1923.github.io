@@ -13,6 +13,12 @@
   font-style: normal;
 }
 
+.lato {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 body {
     background-color: #01002e;
     color: white;
@@ -30,8 +36,12 @@ body {
     text-align: center;
 }
 
+#about {
+    text-align: center;
+}
+
 h1 {
-    padding-top: 5vh;
+    padding-top: 4vh;
     font-size: 12vw;
     text-align: center;
     line-height: 0.5vh;
@@ -41,6 +51,12 @@ h3 {
     font-size: 6vw;
     text-align: center;
     line-height: 1vh;
+}
+
+p {
+    font-size: 1.6vw;
+    text-align: center;
+    padding-right: 24vw;
 }
 
 input {
@@ -62,7 +78,7 @@ input:hover {
 
 #buttons {
     overflow: hidden;
-    margin-left: 31%;
+    margin-left: 25%;
 }
 
 img {
@@ -70,8 +86,22 @@ img {
     height: auto;
     /* Magic! */
     max-width: 10vw;
-    padding: 5vw;
+    padding-top: 4vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-left: 1%;
     transition: filter 1s;
+}
+
+img.aboutimg {
+    width: 100%;
+    height: auto;
+    max-width: 20vw;
+    padding-top: 0vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-left: 20%;
+    float: left;
 }
 
 img:hover {
