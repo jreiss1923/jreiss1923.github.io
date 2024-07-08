@@ -53,6 +53,15 @@ h3 {
     line-height: 1vh;
 }
 
+#rotation {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.hide {
+    opacity: 0 !important;
+}
+
 p {
     font-size: 1.6vw;
     text-align: center;

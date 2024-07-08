@@ -2,4 +2,4 @@
 TODO:
 
 Add email option to links tab
-Add changing fade in fade out text for h3
+Make elements fade in whenever I click a button

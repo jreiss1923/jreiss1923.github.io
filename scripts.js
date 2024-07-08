@@ -121,3 +121,22 @@ function showAbout() {
         $('#linksbutton').removeClass('clicked');
     }
 }
+
+const subHeaderArr = ["Software Engineer", "Pickup Basketball Player", "Home Baker", "Birdwatcher", "Avid Reader", "King K. Rool Main"];
+var elem = document.getElementById("rotation");
+var inst = setInterval(rotateText, 10000);
+var counter = 1;
+
+
+function rotateText() {
+    console.log(document.getElementById("rotation"));
+    document.getElementById("rotation").classList.add('hide');
+    setTimeout(function () {
+        document.getElementById("rotation").textContent = subHeaderArr[counter];
+        document.getElementById("rotation").classList.remove('hide');
+        counter++;
+        if (counter >= subHeaderArr.length) {
+            counter = 0;
+        }
+    }, 750);
+}
