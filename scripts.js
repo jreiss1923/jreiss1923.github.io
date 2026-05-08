@@ -122,7 +122,7 @@ function showAbout() {
     }
 }
 
-const subHeaderArr = ["Software Engineer", "Pickup Basketball Player", "Home Baker", "Birdwatcher", "Avid Reader", "King K. Rool Main"];
+const subHeaderArr = ["Software Engineer", "Birdwatcher", "Reader", "SSBU Player"];
 var elem = document.getElementById("rotation");
 var inst = setInterval(rotateText, 10000);
 var counter = 1;
